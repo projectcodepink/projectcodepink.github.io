@@ -59,5 +59,5 @@ function showFinalText() {
 }
 
 document.getElementById("detailsButton").addEventListener("click", function() {
-    window.open("https://e.pcloud.link/publink/show?code=XZjFAKZx8v2shDLp6BRhx4rT9GrXBOn9ymk", "_blank");
+    window.open("https://e.pcloud.link/publink/show?code=XZHdAKZf1Fqse0qRrXpiEGQnSBxcLJYNH0k", "_blank");
 });
