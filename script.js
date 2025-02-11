@@ -57,3 +57,7 @@ function showFinalText() {
     const finalText = document.getElementById('finalText');
     finalText.style.display = 'block'; // Yazıyı görünür yapıyoruz
 }
+
+document.getElementById("detailsButton").addEventListener("click", function() {
+    window.open("https://e.pcloud.link/publink/show?code=XZjFAKZx8v2shDLp6BRhx4rT9GrXBOn9ymk", "_blank");
+});
