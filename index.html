@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Code Pink</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1 id="animatedText"></h1>
+        <div class="buttons" id="buttonsContainer">
+            <button class="btn" id="supportBtn">Support us</button>
+            <button class="btn">Details</button>
+        </div>
+
+        <!-- Fotoğrafı başlangıçta gizli yapıyoruz -->
+        <a href="https://www.instagram.com/lena.petrovna.ai/" target="_blank" id="finalImageLink" style="display: none;">
+            <img src="assets/lena.petrovna.png" alt="Project Code Pink Logo" id="finalImage">
+        </a>
+
+        <!-- QR Kod ve Cüzdan Numarası Popup'ı -->
+        <div id="qrPopup" class="popup">
+            <div class="popup-content">
+                <h2>Donate via USDT</h2>
+                <img src="assets/receiveusdt.png" alt="QR Code" id="qrCode">
+                <p id="walletAddress">Wallet Address: Ox5c2Ef7FC072fd7cEb7cc9<br>
+                    879A8D13c72AedC9100</p>
+                <button id="closePopup" class="btn">Close</button>
+            </div>
+        </div>
+    </div>
+    <h1 id="finalText" style="display: none;">Project Code Pink</h1> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
